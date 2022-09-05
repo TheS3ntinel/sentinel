@@ -1,0 +1,9 @@
+body {
+  background-image: url("../files/images/backdrop_1920x1080.png");
+  background-attachment: fixed;
+}
+.ratio-4x3 {
+  @include media-breakpoint-up(md) {
+    --bs-aspect-ratio: 50%; // 2x1
+  }
+}
